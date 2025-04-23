@@ -1,0 +1,104 @@
+
+.drag-box {
+    cursor: move;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: box-shadow 200ms cubic-bezier(0, 0, 0.2, 1);
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+                0 2px 2px 0 rgba(0, 0, 0, 0.14),
+                0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  
+  .drag-box:active {
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+                0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  }
+.main-card{
+    width: 600px;
+    height: 550px;
+    max-width: 100%;
+    border: 1px solid #007bff;
+}
+  .res-card{
+    width: 300px;
+    height: 300px;
+  }
+  .menu-data{
+    width: 300px;
+    height: 100px;
+  }
+  mat-grid-tile {
+    background: lightblue;
+  }
+  #triangle-left {
+    position: absolute;
+    top: -37px;
+    left: -50%;
+	width: 50%;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #e16614;
+	border-bottom: 25px solid transparent;
+}
+#holder {
+    border-top: 25px solid #e16614;
+    border-right: 25px solid #e16614;
+    border-top-right-radius: 50px;
+    height: 400px;
+    width: 200px;
+    position:relative;
+    margin:10px;
+} 
+.absolute{
+    position: absolute;
+    right:7%;
+    top:3%;
+}
+.final-stage{
+    top:-12%;
+}
+.third-stage{
+    top:0;
+    right: 10px;
+}
+.second-stage{
+    bottom: 55%;
+    right:0;
+}
+.initial-stage{
+    bottom: 0;
+    right: 0;
+}
+.rotateY180{
+    transform: rotateY(180deg);
+}
+.rotateY0{
+    transform: rotateY(0deg);
+}
+.extraPath{
+    border-top: 25px solid #e16614;
+    border-left: 25px solid #e16614;
+    border-top-left-radius: 50px;
+    height: 200px;
+    width: 100px;
+    bottom:0;
+    right:0
+}
+.subStage{
+    bottom: 30%;
+    left:0;
+}
+.icons{
+    border: 1px solid;
+    padding: 2px;
+    height: 100px;
+    padding: 10px;
+    margin-top:20%;
+    i{
+        cursor: pointer;
+        display: block;
+        font-size: 24px;
+    }
+}
