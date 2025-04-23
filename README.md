@@ -2,7 +2,7 @@
 
 # Tech stack
 - HTML
-- SCSS(Major on Pasitions)
+- SCSS(Positions)
 - Bootstrap
 - Angular
 - Angular CDK(Drag & Drop)
